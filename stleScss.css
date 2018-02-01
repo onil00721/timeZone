@@ -69,15 +69,20 @@ body {
    
 
   
-.capitalBox{
+.box{
     display: inline-block;
     padding: 15px;
     text-align: center;
     background: #d4b6ff
     
 }
-.capitalBox p{
+.box p{
     margin: 0;
     font-size: 2vw;
 }
-        
+#spadaj{
+    width:200px;
+    height: 200px;
+    background: blue;
+    f
+}      
