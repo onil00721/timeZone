@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stleScss.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link href="css/fontello.css" rel="stylesheet" type="text/css" />
+    <script src="newjavascript.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <div id="menu"></div>
+
+        </nav>
+
+    </header>
+    <nav>
+        <div id="buttonOpen">
+            <span id="OpenMenu" onclick="openLeftMenu()">&#9776; O P E N</span>
+        </div>
+        <div id="leftMenu" class="styleLeftMenu">
+            <a class="closebtn" onclick="closeLeftMenu()">&times;</a>
+            <p>Menu</p>
+            <p>Topic</p>
+            <p>Statistic</p>
+            <p>Contact </p>
+            <p>Maps</p>
+        </div>
+        <script>
+            function closeLeftMenu() {
+                document.getElementById("leftMenu").style.width = "0px";
+            }
+            function openLeftMenu() {
+                document.getElementById("leftMenu").style.width = "400px";
+            }
+        </script>
+    </nav>
+    <main>
+        <article>
+            <section>
+                <div class="paragraph"><h1>Aktualny czas w Polsce</h1></div>
+                <div id="time">17.10.48</div>
+                <div class="paragraph">czwartek, 1 lutego 2018, tydień 5</div>
+                <div class="paragraph">
+                    <div class="capitalBox">
+                        <p>Los Angeles</p>
+                        <p>8.16</p>
+                    </div>
+                    <div class="capitalBox">
+                        <p>New York</p>
+                        <p>11.16</p>
+                    </div>
+                    <div class="capitalBox">
+                        <p>London</p>
+                        <p>16.16</p>
+                    </div>
+                    <div class="capitalBox">
+                        <p>Paris</p>
+                        <p>17.17</p>
+                    </div>
+                    <div class="capitalBox">
+                        <p>Moscow</p>
+                        <p>19.17</p>
+                    </div>
+                    <div class="capitalBox">
+                        <p>Pekin</p>
+                        <p>00.17</p>
+                    </div>
+                    <div class="capitalBox">
+                        <p>Tokyo</p>
+                        <p>1.18</p>
+                    </div>
+                </div>
+
+            </section>
+            <section>
+
+            </section>
+        </article>
+    </main>
+
+    <fotter>
+
+    </fotter>
+</body>
+</html>
