@@ -62,6 +62,23 @@ body {
     
     
 }
+
+.paragraph2{
+   font-size: 3vw;
+    margin:20px auto 0 auto;
+    background: black;
+    align-content: center; 
+    //width: 800px;
+    float:
+}
+
+  
+     
+  
+    
+    
+    
+
 #time{
   margin-left: 15vw;
      font-size: 23vw; 
@@ -80,9 +97,9 @@ body {
     margin: 0;
     font-size: 2vw;
 }
-#spadaj{
-    width:200px;
-    height: 200px;
-    background: blue;
-    f
+#littleBreak{
+    width:1250px;
+    height: 250px;
+    background: green;
+    
 }      
